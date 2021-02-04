@@ -17,8 +17,8 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
-		"go.useGoProxyToCheckForToolUpdates": false,
-		"go.useLanguageServer": true,
+		"go.toolsManagement.checkForUpdates": "local",
+		"go.useLanguageServer": false,
 		"go.gopath": "/go",
 		"go.goroot": "/usr/local/go",
 		"go.toolsGopath": "/go/bin"
